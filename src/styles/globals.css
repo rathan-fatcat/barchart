@@ -18,9 +18,13 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+    padding: 0px;
+    margin: 0px;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
+    margin: 0px;
+    padding: 0px;
   }
 }

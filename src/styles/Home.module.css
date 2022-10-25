@@ -1,7 +1,39 @@
 .container {
-  padding: 0 2rem;
+  background-color: white;
+  padding: 20px;
 }
 
+.bodyTag {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.heading {
+  margin: 0px;
+}
+
+.graph {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #0275d8;
+  border: none;
+  outline: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+/*
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -126,4 +158,4 @@
   .logo img {
     filter: invert(1);
   }
-}
+} */
